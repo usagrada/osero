@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px 10%;
+}
+
+#body {
+  height: 10px;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vh;
+  height: 80vh;
+  margin: auto;
+}
+
+.block {
+  position: relative;
+  width: 12.5%;
+  height: 12.5%;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.block > .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  border-radius: 50%;
+}
+.block > .white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 50%;
+}
